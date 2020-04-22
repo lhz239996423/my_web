@@ -1,0 +1,253 @@
+p {
+    text-indent: 2em;
+}
+
+.p-btn {
+    text-indent: 0;
+}
+
+.hearten-box p {
+    text-indent: 0;
+}
+
+.index-top {
+    font-size: 21px;
+    font-weight: 200;
+}
+
+.text-strong {
+    font-size: 16px;
+}
+
+.p-sm {
+    font-size: 14px;
+}
+
+
+/* 正常PC和超大屏幕显示 */
+
+@media (min-width: 992px) {
+    /* 使列表中的项目居中对齐 */
+    .row-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* 大于手机屏幕下 */
+
+@media (min-width: 768px) {
+    /* 缩小输入框 */
+    .table-up td {
+        width: 263px;
+    }
+}
+
+
+/* 只在手机屏幕下 */
+
+@media (max-width: 767px) {
+    .bg-footer {
+        display: none;
+    }
+    .table-note td:nth-child(2) {
+        overflow-x: auto;
+    }
+    .table-note td:nth-child(2)::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
+/* 普通PC显示下 */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    /* 在中等屏幕下，使表格中的字体缩小 */
+    .p-sm {
+        font-size: 12px;
+    }
+}
+
+img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.img-box {
+    width: 100%;
+    height: 260px;
+    margin-bottom: 5px;
+}
+
+.img-box img {
+    float: left;
+}
+
+.img-left {
+    margin-right: 80px;
+}
+
+.input-find {
+    width: 240px;
+    margin: 10px auto;
+}
+
+.content-top {
+    margin-top: 50px;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+}
+
+.bg-gray {
+    background-color: #efefef;
+    border-radius: 10px;
+}
+
+.bg-index {
+    background: url('../img/content32.jpg') no-repeat;
+}
+
+.bg-about {
+    background: url('../img/content15.jpg') no-repeat;
+}
+
+.bg-about,
+.bg-index {
+    background-size: cover;
+    background-position: center 0;
+}
+
+.bg-ab-one {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 50px;
+}
+
+.bg-ab-two {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.bg-ab-one,
+.bg-ab-two {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.bg-note {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-top {
+    padding-top: 50px;
+}
+
+.bg-footer {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+}
+
+.bg-footer footer {
+    padding-left: 30px;
+}
+
+.foot-sp {
+    display: inline-block;
+}
+
+.text-add {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text-add textarea {
+    color: black;
+}
+
+.text-add button,
+.text-find button {
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+}
+
+.table-up,
+.table-note,
+.table-delete {
+    table-layout: fixed;
+}
+
+.table-up td,
+.table-delete td,
+.table-note td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-note td span,
+.table-up td span,
+.table-delete td span {
+    display: block;
+    padding-top: 10px;
+}
+
+.table-up td:first-child {
+    width: 50px;
+}
+
+.table-up td:nth-child(2) input {
+    width: 100%;
+}
+
+.table-up td:nth-child(3) {
+    width: 86px;
+}
+
+.table-up td:nth-child(5) {
+    width: 73px;
+}
+
+.table-note td:first-child {
+    width: 50px;
+}
+
+.table-note td:nth-child(3) {
+    width: 100px;
+}
+
+.table-delete td:first-child {
+    width: 46px;
+}
+
+.table-delete td:nth-child(3),
+.table-delete td:nth-child(4) {
+    width: 90px;
+}
+
+
+/* 实现底部固定 */
+
+.table-no-boder {
+    border: none;
+}
+
+.tab-text h2 {
+    text-align: center;
+}
