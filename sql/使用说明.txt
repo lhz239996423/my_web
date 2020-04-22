@@ -1,0 +1,2 @@
+数据库名称notepad
+可以导入notepad.sql创建
